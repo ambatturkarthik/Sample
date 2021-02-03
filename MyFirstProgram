@@ -11,5 +11,9 @@ public class Seliniumtutorial {
 		String title=driver.getTitle();
 		
 		System.out.Println(title);
+		
+		String str=driver.getCurrentUrl();
+		
+		System.Out.Println(str);
 }
 }
